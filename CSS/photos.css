@@ -1,0 +1,33 @@
+#wrapper{
+    display: grid;
+    }
+#text1{ 
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 505px;
+    text-align: center;
+    margin-bottom: 50px;
+ }
+#text2{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+    text-align: center;
+}  
+#photo1{
+    width: 505px;
+}
+#header{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    text-decoration: underline;
+}
+#link2{
+    margin-left: 105px
+}
